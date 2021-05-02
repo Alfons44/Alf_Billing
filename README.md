@@ -1,4 +1,4 @@
-# Alf_Billing || Pay your BIlls with an nice UI!
+# Alf_Billing || Pay your Bills with an nice UI!
 
 ## Features
 ```
