@@ -22,7 +22,7 @@
 Eventname | Values |  Description
 ------------- | ------------- | -------------
 Alf-Billing:openSociety | societyName | Create a Bill from Player to Society
-Alf-Billing:open | - | Create a Bill from Player to Player
+Alf-Billing:open |  | Create a Bill from Player to Player
 
 
 ## Config 
