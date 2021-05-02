@@ -1,0 +1,39 @@
+<!doctype HTML>
+<html>
+<head>
+  <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Freeway-Rechnung</title>
+</head>
+<body>
+  <!--<img id="cursor" src="img/cursor.png">-->
+  <script src="script.js" type="text/javascript"></script>
+
+    <div class="rechnung-window">
+      <div>
+        <a>Rechnung</a>
+      </div>
+      <hr>
+      <div class="form">
+        <div>
+            <form>
+              <input type="text" id="title" placeholder="Titel" autocomplete="off" tabindex="1"/>
+              <input type="number" style="width: 100px" id="price" placeholder="Preis" autocomplete="off" tabindex="2"/><br>
+            </form>
+
+            <br>
+            
+            <textarea id="content" rows="30" cols="62" tabindex="3"></textarea>
+          </div>
+          <hr>
+          <div id="choice">
+            <form id="choice">
+              <button type="button" id="submit" tabindex="4" onclick="submit()">Bestätigen</button>
+              <button type="button" id="cancel" tabindex="5" style="background-color: red" onclick="cancel()">Abbrechen</button>
+            </form>
+          </div>
+      </div>
+    </div>
+
+  </body>
+</html>
