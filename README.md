@@ -1,16 +1,12 @@
 # Alf_Billing || Pay your Bills with an nice UI!
 
 ## Features
-```
 » Pay Bills direct
 » Pay Bill via UI
-```
 
 ## Requirements
-```
 » es_extended 1.2 or higher
 » mysql-async
-```
 
 ## Installation
 1. Import the SQL into your Database
